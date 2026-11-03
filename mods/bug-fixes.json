@@ -5,19 +5,20 @@
     "name": "Materal"
   },
   "displayName": "Bug修复",
+  "downloadParts": null,
   "downloadUrls": [
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/MateralCMX/evejs-mod-bug-fixes/releases/download/v0.17.5/bug-fixes-0.17.5.zip"
+      "url": "https://github.com/MateralCMX/evejs-mod-bug-fixes/releases/download/v0.18.2/bug-fixes-0.18.2.zip"
     }
   ],
   "id": "bug-fixes",
-  "publishedAt": "2026-10-26",
+  "publishedAt": "2026-11-03",
   "schemaVersion": 1,
-  "sha256": "bfc67dd9ffb4d12a4cc95a770feaaa2f35cca88ff7a5e01dd2f73e58957285bb",
-  "sizeBytes": 897435,
+  "sha256": "01dc546e6c3dd96c587076cb2fb883e98b475411c4d8266af60d9c06dfb7f7c7",
+  "sizeBytes": 945088,
   "source": "MateralCMX/evejs-mod-bug-fixes",
-  "submittedAt": "2026-10-26T01:16:59.237Z",
-  "version": "0.17.5"
+  "submittedAt": "2026-11-03T01:10:27.665Z",
+  "version": "0.18.2"
 }
