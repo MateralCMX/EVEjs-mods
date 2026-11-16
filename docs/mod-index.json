@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-16T14:35:52.532Z",
+  "publishedAt": "2026-11-16T15:21:35.618Z",
   "mods": [
     {
       "author": {
@@ -348,7 +348,7 @@
       ],
       "version": "1.0.20",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 1402,
+      "downloads": 1403,
       "cdnHits": 2982
     },
     {
@@ -392,7 +392,7 @@
       "tags": [],
       "version": "1.0.3",
       "source": "guihaitianyi-cmd/evejs-mod-evejs-evejs-hacking-suite-1-0-3",
-      "downloads": 317,
+      "downloads": 318,
       "cdnHits": 0
     },
     {
@@ -575,7 +575,7 @@
       ],
       "version": "1.0.0",
       "source": "ewinted/evejs-mod-evejs-mtu-multi-target",
-      "downloads": 29,
+      "downloads": 30,
       "cdnHits": 0
     },
     {
@@ -628,7 +628,7 @@
       ],
       "version": "1.3.1",
       "source": "GH301/evejs-mod-evejs-nf-crew",
-      "downloads": 501,
+      "downloads": 506,
       "cdnHits": 0
     },
     {
@@ -702,7 +702,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 2267,
+      "downloads": 2269,
       "cdnHits": 3351
     },
     {
@@ -1352,7 +1352,7 @@
       ],
       "version": "1.3.15",
       "source": "xxxuan42/evejs-mod-evejs-skyhook-reagent-boost",
-      "downloads": 279,
+      "downloads": 282,
       "cdnHits": 0
     },
     {
@@ -1401,7 +1401,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-agent-portraits",
-      "downloads": 123,
+      "downloads": 124,
       "cdnHits": 0
     },
     {
@@ -1451,7 +1451,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 449,
+      "downloads": 450,
       "cdnHits": 0
     },
     {
@@ -1506,7 +1506,7 @@
       ],
       "version": "1.2.1",
       "source": "jealous123456789/evejs-mod-mission-content-repair",
-      "downloads": 504,
+      "downloads": 508,
       "cdnHits": 0
     },
     {
@@ -1557,7 +1557,7 @@
       ],
       "version": "1.0.4",
       "source": "starcraft110/evejs-mod-evejs-hyperion-ship",
-      "downloads": 249,
+      "downloads": 250,
       "cdnHits": 0
     },
     {
@@ -1650,7 +1650,7 @@
       ],
       "version": "1.6.4",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-      "downloads": 695,
+      "downloads": 696,
       "cdnHits": 2
     },
     {
@@ -1696,7 +1696,7 @@
       ],
       "version": "1.0.3",
       "source": "xxxuan42/evejs-mod-evejs-moonscan-all",
-      "downloads": 101,
+      "downloads": 103,
       "cdnHits": 0
     },
     {
@@ -1841,7 +1841,7 @@
       ],
       "version": "1.0.0",
       "source": "Mimataer/evejs-mod-evejs-da-fei-yu-zhu-quan-bu-shu",
-      "downloads": 17,
+      "downloads": 18,
       "cdnHits": 0
     },
     {
@@ -2201,6 +2201,57 @@
     },
     {
       "author": {
+        "id": "au-mvt6rg210sr2",
+        "keyId": "a20ad81508c3",
+        "name": "GH301"
+      },
+      "category": "玩法",
+      "changelog": "- 兼容 EveJS **261115.2**\n- 异常空间奖励\n难度 ≥4 有官员（默认 5%，一次 1 只，从该势力的 3–4 个官员档案里随机）；\n难度 ≥5 有无畏舰（默认 20%）和超旗（默认 5%）；难度 1–3 什么都不给。\n古斯塔斯、天使、血袭者、萨沙、天蛇五家，各用自己对应的型号。",
+      "conflicts": [],
+      "delisted": false,
+      "description": "清完战斗异常按难度掷骰，刷出该势力官员、无畏舰与超旗；概率数量可调实时生效，不改服务端文件。",
+      "displayName": "异常空间奖励（官员 / 无畏 / 超旗）",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/GH301/evejs-mod-evejs-anomaly-rewards/releases/download/v1.1.1/evejs-anomaly-rewards-1.1.1.zip"
+        }
+      ],
+      "evejsVersions": [
+        "261018.1",
+        "261028.1",
+        "261115.2"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-anomaly-rewards",
+      "publishedAt": "2026-11-16",
+      "readme": [
+        "1. **挂在\"完成之后\"，不参与完成判定**\n   注入点是 `maybeCompleteClearedEncounterSite()` 里\n   `setLifecycleState(..., \"completed\", …)` → `notifyDungeonCompletedForScene(...)` 之后。\n   站点**是否算完成、何时卸载、何时轮换**完全不受本模组影响；注入失败或运行时抛异常\n   都会被吞掉，绝不会因为奖励没刷出来而卡住站点。",
+        "2. **奖励 NPC 刻意不带副本作用域**（`entityScopeMetadata: {}`）\n   带 `dungeonSiteID` / `dungeonSiteInstanceID` 的实体会被站点收尾的 survivor sweep\n   当成副本内容清掉（`releaseSurvivorsFromSitePocket()` 只处理\n   `dungeonSiteInstanceID` 非空的实体）。不给作用域，奖励 NPC 就会留在原地等玩家来打。",
+        "3. **用 `Module.prototype._compile` 而不是 `Module._load`**\n   `_compile` 是可叠加的：多个模组改同一个文件会依次应用。\n   这一点很关键 —— `CN-MOD-0.12.9` 是在 `Module._load` 层用内存副本**整份替换**\n   `dungeonUniverseSiteService.js` 的，而它替换进来的内容同样要过 `_compile`，\n   所以本模组的锚点在那份副本里也能命中（两份都已实测唯一命中：各 1 次）。\n   v1.1.0 起 CN-MOD 的副本本身也按 261018.1 重建，两边的 `notify` 调用文本完全一致。",
+        "4. **补丁 2（停用内联旧实现）保留但静默**\n   261018.1 起，`server/src` 里那段内联旧奖励实现已经被上游删掉，本来就不会重复触发；\n   这条可选补丁的锚点自然缺失，且标了 `quietIfMissing`，所以日志里不会再出现\n   “锚点缺失·neutralize-inline-hook”。保留它是为了在 0.12.9 系服务端上仍然挡掉\n   “内联实现 + 本模组同时生效、奖励刷两遍”的风险。",
+        "---"
+      ],
+      "repo": "https://github.com/GH301/evejs-mod-evejs-anomaly-rewards",
+      "requiresRestart": true,
+      "sha256": "2c6232de73c712437d29d84387045a324e508200549950892c9f38dc4da5b46a",
+      "sizeBytes": 30912,
+      "tags": [
+        "异常空间",
+        "PVE",
+        "奖励",
+        "NPC"
+      ],
+      "version": "1.1.1",
+      "source": "GH301/evejs-mod-evejs-anomaly-rewards",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
         "id": "au-mvdfee9me05u",
         "keyId": "0f5102b5a107",
         "name": "XUAN"
@@ -2245,7 +2296,7 @@
       ],
       "version": "1.0.10",
       "source": "xxxuan42/evejs-mod-evejs-courier-ai",
-      "downloads": 76,
+      "downloads": 78,
       "cdnHits": 0
     },
     {
@@ -2336,7 +2387,7 @@
       ],
       "version": "1.0.0",
       "source": "jealous123456789/evejs-mod-overview-display-fix",
-      "downloads": 155,
+      "downloads": 156,
       "cdnHits": 0
     },
     {
@@ -2474,7 +2525,7 @@
       ],
       "version": "1.1.3",
       "source": "xxxuan42/evejs-mod-evejs-auto-mining-compression",
-      "downloads": 211,
+      "downloads": 217,
       "cdnHits": 0
     },
     {
@@ -2615,7 +2666,7 @@
       ],
       "version": "1.0.3",
       "source": "xxxuan42/evejs-mod-evejs-stargate-jump-anywhere",
-      "downloads": 40,
+      "downloads": 41,
       "cdnHits": 0
     },
     {
@@ -3171,7 +3222,7 @@
       ],
       "version": "1.1.5",
       "source": "xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle",
-      "downloads": 77,
+      "downloads": 78,
       "cdnHits": 0
     },
     {
@@ -3353,7 +3404,7 @@
       ],
       "version": "1.0.0",
       "source": "xfeiyu4008/evejs-mod-evejs-perfect-mutation-261028",
-      "downloads": 93,
+      "downloads": 94,
       "cdnHits": 0
     },
     {
@@ -3775,7 +3826,7 @@
       ],
       "version": "1.1.0",
       "source": "lxm970112-hub/evejs-mod-evejs-wormhole-anomaly-repair-261028",
-      "downloads": 6,
+      "downloads": 9,
       "cdnHits": 0
     },
     {
@@ -3957,7 +4008,7 @@
       ],
       "version": "1.10.3",
       "source": "xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
-      "downloads": 284,
+      "downloads": 286,
       "cdnHits": 0
     },
     {
@@ -4002,7 +4053,7 @@
       ],
       "version": "1.0.4",
       "source": "kokoandqiong/evejs-mod-evejs-tie-qi-zhong-wu-shang-hai-xiu-fu",
-      "downloads": 253,
+      "downloads": 254,
       "cdnHits": 0
     },
     {
@@ -4052,7 +4103,7 @@
       ],
       "version": "1.0.5",
       "source": "lxm970112-hub/evejs-mod-evejs-tie-qi-hu-hang",
-      "downloads": 87,
+      "downloads": 88,
       "cdnHits": 0
     }
   ],
@@ -4085,7 +4136,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "X7OIXXo44eDKkVHeTtO64L4lEz5uRrtagrfTww+AnNrYpIpovNJuVH45v+bBMTpeFXEtiERUAC1CjDfBvcs9AA==",
-    "signedAt": "2026-11-16T14:35:52.538Z"
+    "sig": "wd1b9AH35K2LqbquaEQuZsCBeWBH3jNV9tpyRc7WUS9/e3L8U4NkSsr3BvgDMT3FGlayR12ayju0Ty+xvvWvBg==",
+    "signedAt": "2026-11-16T15:21:35.624Z"
   }
 }
