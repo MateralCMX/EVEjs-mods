@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvt6rg210sr2",
+    "keyId": "a20ad81508c3",
+    "name": "GH301"
+  },
+  "displayName": "异常空间奖励（官员 / 无畏 / 超旗）",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/GH301/evejs-mod-evejs-anomaly-rewards/releases/download/v1.1.1/evejs-anomaly-rewards-1.1.1.zip"
+    }
+  ],
+  "id": "evejs-anomaly-rewards",
+  "publishedAt": "2026-11-16",
+  "schemaVersion": 1,
+  "sha256": "2c6232de73c712437d29d84387045a324e508200549950892c9f38dc4da5b46a",
+  "sizeBytes": 30912,
+  "source": "GH301/evejs-mod-evejs-anomaly-rewards",
+  "submittedAt": "2026-11-16T15:18:06.089Z",
+  "version": "1.1.1"
+}
