@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": 1794932020471,
+  "modId": "evejs-mtu-multi-target",
+  "reviews": [],
+  "stars": {
+    "count": 1,
+    "keys": [
+      "d6eb99d6e65a"
+    ]
+  },
+  "signature": {
+    "alg": "ed25519",
+    "keyId": "evejs-ratings-2026-10-01",
+    "sig": "STO43Iahh4D+Rfxwmff+u9tgHPkVkHWuuRyqDkmvTXMK8KgMpnf3mW37Hakbr2HHwdMm6fFJ8bwkIV0aNZBACw=="
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": 1794912191162,
+  "modId": "pi-manager",
+  "reviews": [],
+  "stars": {
+    "count": 1,
+    "keys": [
+      "29ce66e326c4"
+    ]
+  },
+  "signature": {
+    "alg": "ed25519",
+    "keyId": "evejs-ratings-2026-10-01",
+    "sig": "l7n/6w/4dnJAAhsphn6Pp1pCsoVblcKf7AFj5XjoNRVxiLRp6i3tpTPKhxgCjwWdT+cjK6OPSi+987pzLzrTDA=="
+  }
+}

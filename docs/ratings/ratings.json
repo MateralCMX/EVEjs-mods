@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1794705697303,
+  "generatedAt": 1794932020471,
   "mods": {
     "bug-fixes": {
       "stars": 1,
@@ -148,6 +148,20 @@
       "average": 5,
       "count": 1,
       "withText": 1,
+      "histogram": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "evejs-mtu-multi-target": {
+      "stars": 1,
+      "comments": 0,
+      "average": 5,
+      "count": 1,
+      "withText": 0,
       "histogram": [
         0,
         0,
@@ -338,6 +352,20 @@
         1
       ]
     },
+    "pi-manager": {
+      "stars": 1,
+      "comments": 0,
+      "average": 5,
+      "count": 1,
+      "withText": 0,
+      "histogram": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
     "salvage-repair": {
       "stars": 1,
       "comments": 0,
@@ -370,6 +398,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "X0MuwKtjEY4P5u5MyVhahC2ePHeH8n+lkqo/Bq0Q7m/hUbIUnZs+yHoBexGuG9t0vlO7/GWNKmZcphxb07thAA=="
+    "sig": "abKUnP3qWVl9vXt+HkwOtOaYetI3mji++QyFloICaH7E1VcaD4yuHnvG0K6CzKFfQ9wfTbPe4qhXKnaxnDhsCQ=="
   }
 }
