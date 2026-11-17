@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-17T05:01:32.390Z",
+  "publishedAt": "2026-11-17T05:08:13.898Z",
   "mods": [
     {
       "author": {
@@ -2153,7 +2153,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-slimitem-name-unicode",
-      "downloads": 117,
+      "downloads": 118,
       "cdnHits": 0
     },
     {
@@ -2485,7 +2485,7 @@
       ],
       "version": "1.5.31",
       "source": "lxm970112-hub/evejs-mod-evejs-wa-kuang",
-      "downloads": 168,
+      "downloads": 169,
       "cdnHits": 2
     },
     {
@@ -3479,7 +3479,7 @@
         "name": "普罗旺斯煎饼果子"
       },
       "category": "工具",
-      "changelog": "补充适配261108.1服务端",
+      "changelog": "适配261115.2服务端",
       "conflicts": [],
       "delisted": false,
       "description": "在本地网页里上传图片，替换 EVE 联盟图标；支持拖拽/缩放裁剪、预览、恢复默认、备份和客户端缓存清理。当前版本仅联盟图标。",
@@ -3488,12 +3488,13 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/jealous123456789/evejs-mod-evejs-logo-manager/releases/download/v1.0.3/evejs-logo-manager-1.0.3.zip"
+          "url": "https://github.com/jealous123456789/evejs-mod-evejs-logo-manager/releases/download/v1.0.4/evejs-logo-manager-1.0.4.zip"
         }
       ],
       "evejsVersions": [
         "261028.x",
-        "261108.x"
+        "261108.x",
+        "261115.x"
       ],
       "featured": false,
       "highlights": [
@@ -3509,7 +3510,7 @@
       ],
       "history": [],
       "id": "evejs-logo-manager",
-      "publishedAt": "2026-11-10",
+      "publishedAt": "2026-11-17",
       "readme": [
         "联盟图标管理器是一个运行在游戏服务端进程里的本机网页工具。启用模组、重启服务器后，用浏览器打开 `http://127.0.0.1:26009/` 就能管理联盟图标，不需要手动复制文件，也不修改服务端源码。",
         "上传图片后，网页会自动裁剪成正方形并转成 PNG，写入图床使用的 32 / 64 / 128 / 256 / 512 / 1024 六个尺寸。建筑和主权标志通常很快刷新；舰船上的联盟标志是客户端 SOF 贴花，需要清除客户端缓存并完全重启客户端后才会更新，网页里提供了对应的一键清理按钮。",
@@ -3517,8 +3518,8 @@
       ],
       "repo": "https://github.com/jealous123456789/evejs-mod-evejs-logo-manager",
       "requiresRestart": true,
-      "sha256": "f2aa65f9169cb02cb950df400c072869b557551d20f3f887ed5785d7cf225539",
-      "sizeBytes": 53715,
+      "sha256": "86962dbafd9ce58c576667e34bf271756f4c935dfe3efdde2166e8b5af07e533",
+      "sizeBytes": 53984,
       "tags": [
         "自定义图标",
         "logo",
@@ -3526,7 +3527,7 @@
         "网页",
         "图标"
       ],
-      "version": "1.0.3",
+      "version": "1.0.4",
       "source": "jealous123456789/evejs-mod-evejs-logo-manager",
       "downloads": 97,
       "cdnHits": 0
@@ -4150,7 +4151,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "nAg2ALZEC7mdHJv48YuPuH1u5eG+3v9h5SwPp+/Rc/N6DnT49Kh05q6i+Lrqz24fb8qlfptZw+5XTogvF2TKDQ==",
-    "signedAt": "2026-11-17T05:01:32.395Z"
+    "sig": "tgz32OTKtAv/e1QjVNa3oIPcZt/GiPGKTnMHjezHG7UD5s9SL2dwMQc/fremggzRlcHAd9i3SqJtIoG5tNeWAQ==",
+    "signedAt": "2026-11-17T05:08:13.904Z"
   }
 }
