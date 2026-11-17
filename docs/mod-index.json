@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-17T21:44:52.042Z",
+  "publishedAt": "2026-11-17T21:47:46.356Z",
   "mods": [
     {
       "author": {
@@ -296,7 +296,7 @@
         "name": "波坤太叔"
       },
       "category": "工具",
-      "changelog": "修复版本对不上的问题",
+      "changelog": "更新至261115.2",
       "conflicts": [],
       "delisted": false,
       "description": "这是一个在游戏内自动采矿,自动压缩的工具",
@@ -309,7 +309,7 @@
         }
       ],
       "evejsVersions": [
-        "261108.1"
+        "261115.2"
       ],
       "featured": false,
       "highlights": [
@@ -844,7 +844,7 @@
       "tags": [],
       "version": "0.2.0",
       "source": "xuenaimiao/evejs-mod-evejs-npc-fleet",
-      "downloads": 396,
+      "downloads": 397,
       "cdnHits": 0
     },
     {
@@ -4159,7 +4159,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "C7+DQ0P4UeSxbgAenChas5ap2XwK+lc8OZ10VVPaH6z5SsXBGGE5lReIclCuW1nTUQ/KmtSwa2rI+pXwwlyxBg==",
-    "signedAt": "2026-11-17T21:44:52.047Z"
+    "sig": "dec1i1pPIe0DPaAMp8d6Qyj/D8zz6pxiQiBzWKrmCnHd54iFTKoWE0RFj7B3lEIr1rjkOid/Xqq/5puuYJkdCQ==",
+    "signedAt": "2026-11-17T21:47:46.361Z"
   }
 }
