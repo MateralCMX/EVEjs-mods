@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-17T03:11:32.615Z",
+  "publishedAt": "2026-11-17T03:13:15.090Z",
   "mods": [
     {
       "author": {
@@ -3536,7 +3536,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/jealous123456789/evejs-mod-autopilot-warp-zero/releases/download/v1.0.0/autopilot-warp-zero-1.0.0.zip"
+          "url": "https://github.com/jealous123456789/evejs-mod-autopilot-warp-zero/releases/download/v1.0.1/autopilot-warp-zero-1.0.1.zip"
         }
       ],
       "evejsVersions": [
@@ -3552,20 +3552,20 @@
       ],
       "history": [],
       "id": "autopilot-warp-zero",
-      "publishedAt": "2026-11-12",
+      "publishedAt": "2026-11-17",
       "readme": [
         "自动导航到星门与空间站时，跃迁距离改为0米；最后一跳前往目标空间站时也直接跃迁到0米。"
       ],
       "repo": "https://github.com/jealous123456789/evejs-mod-autopilot-warp-zero",
       "requiresRestart": true,
-      "sha256": "46417039a01dc72a97f7bf83c64a30e0be7fb7b6462aa7283299a6c08fa0c67f",
-      "sizeBytes": 10457,
+      "sha256": "8148f32b2b64677345bf43699ef3c0b1369ab8466c25035152b2bdcf3954dddd",
+      "sizeBytes": 10547,
       "tags": [
         "自动导航",
         "跃迁",
         "玩法"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "jealous123456789/evejs-mod-autopilot-warp-zero",
       "downloads": 84,
       "cdnHits": 0
@@ -4139,7 +4139,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "Hw7VcfV9KGjs8jjiToWmiRAu+/tLrcjlq1nlS4iYSeJ+TWkmAG/JHER0/Lc9fxJo/YnURqgyXQSoiYTPpoquDQ==",
-    "signedAt": "2026-11-17T03:11:32.621Z"
+    "sig": "YASDpUyoTANqjlhjRHTC90seO3anD+izuyOjhruRNSD3PBBbrHZjI5x6HG2zFs56Zb+Rf6tlOO1U43OB5M+2Dg==",
+    "signedAt": "2026-11-17T03:13:15.096Z"
   }
 }
