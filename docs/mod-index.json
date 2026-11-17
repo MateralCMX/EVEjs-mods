@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-17T03:06:47.781Z",
+  "publishedAt": "2026-11-17T03:11:32.615Z",
   "mods": [
     {
       "author": {
@@ -1352,7 +1352,7 @@
       ],
       "version": "1.3.15",
       "source": "xxxuan42/evejs-mod-evejs-skyhook-reagent-boost",
-      "downloads": 311,
+      "downloads": 312,
       "cdnHits": 0
     },
     {
@@ -1696,7 +1696,7 @@
       ],
       "version": "1.0.3",
       "source": "xxxuan42/evejs-mod-evejs-moonscan-all",
-      "downloads": 123,
+      "downloads": 124,
       "cdnHits": 0
     },
     {
@@ -2347,7 +2347,7 @@
         "name": "普罗旺斯煎饼果子"
       },
       "category": "修复",
-      "changelog": "",
+      "changelog": "适配261115.2服务端",
       "conflicts": [
         "evejs-slimitem-name-wstring"
       ],
@@ -2358,12 +2358,13 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/jealous123456789/evejs-mod-overview-display-fix/releases/download/v1.0.0/overview-display-fix-1.0.0.zip"
+          "url": "https://github.com/jealous123456789/evejs-mod-overview-display-fix/releases/download/v1.0.1/overview-display-fix-1.0.1.zip"
         }
       ],
       "evejsVersions": [
         "261028.x",
-        "261108.x"
+        "261108.x",
+        "261115.x"
       ],
       "featured": false,
       "highlights": [
@@ -2371,21 +2372,21 @@
       ],
       "history": [],
       "id": "overview-display-fix",
-      "publishedAt": "2026-11-12",
+      "publishedAt": "2026-11-17",
       "readme": [
         "版本：1.0.0",
         "修复太空中总览分类标签无法正确显示目标的问题。"
       ],
       "repo": "https://github.com/jealous123456789/evejs-mod-overview-display-fix",
       "requiresRestart": true,
-      "sha256": "ca96fba83a0d890f932fc30be107acb76a549d5eba0dd314c15541de667d927f",
-      "sizeBytes": 15730,
+      "sha256": "510471405be991f889d83b20ad079cec471475e33811f5e98d9b43418609b146",
+      "sizeBytes": 16272,
       "tags": [
         "总览",
         "显示",
         "修复"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "jealous123456789/evejs-mod-overview-display-fix",
       "downloads": 168,
       "cdnHits": 0
@@ -2525,7 +2526,7 @@
       ],
       "version": "1.1.3",
       "source": "xxxuan42/evejs-mod-evejs-auto-mining-compression",
-      "downloads": 239,
+      "downloads": 240,
       "cdnHits": 0
     },
     {
@@ -3526,7 +3527,7 @@
         "name": "普罗旺斯煎饼果子"
       },
       "category": "玩法",
-      "changelog": "",
+      "changelog": "适配261115.2服务端",
       "conflicts": [],
       "delisted": false,
       "description": "自动导航到星门与空间站时，跃迁距离改为0米；最后一跳前往目标空间站时也直接跃迁到0米。手动跃迁距离不受影响。",
@@ -3539,7 +3540,8 @@
         }
       ],
       "evejsVersions": [
-        "261108.x"
+        "261108.x",
+        "261115.x"
       ],
       "featured": false,
       "highlights": [
@@ -4137,7 +4139,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "DMEqngzVobW2Oke9ZoJlGwERk/00Bvedif6ur9xpKWyhZU3tmguUbWPnbX++EBFhSiW6HNGw7aDQIE6NnlpSDA==",
-    "signedAt": "2026-11-17T03:06:47.787Z"
+    "sig": "Hw7VcfV9KGjs8jjiToWmiRAu+/tLrcjlq1nlS4iYSeJ+TWkmAG/JHER0/Lc9fxJo/YnURqgyXQSoiYTPpoquDQ==",
+    "signedAt": "2026-11-17T03:11:32.621Z"
   }
 }
