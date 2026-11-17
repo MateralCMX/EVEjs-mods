@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-17T05:08:13.898Z",
+  "publishedAt": "2026-11-17T05:17:56.820Z",
   "mods": [
     {
       "author": {
@@ -1509,7 +1509,7 @@
       ],
       "version": "1.2.2",
       "source": "jealous123456789/evejs-mod-mission-content-repair",
-      "downloads": 531,
+      "downloads": 533,
       "cdnHits": 0
     },
     {
@@ -3364,7 +3364,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-belt-respawn-cooldown",
-      "downloads": 89,
+      "downloads": 90,
       "cdnHits": 0
     },
     {
@@ -3427,7 +3427,7 @@
         "name": "普罗旺斯煎饼果子"
       },
       "category": "工具",
-      "changelog": "建议有条件都装上",
+      "changelog": "适配261115.2服务端",
       "conflicts": [],
       "delisted": false,
       "description": "服务端与客户端的聊天通道会在某些情况下会半死，比如安装某些特定mod实现功能等，这个mod用于修复此bug",
@@ -3436,11 +3436,12 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/jealous123456789/evejs-mod-chat-edge-lane-fix/releases/download/v1.0.0/chat-edge-lane-fix-1.0.0.zip"
+          "url": "https://github.com/jealous123456789/evejs-mod-chat-edge-lane-fix/releases/download/v1.0.1/chat-edge-lane-fix-1.0.1.zip"
         }
       ],
       "evejsVersions": [
-        "261108.x"
+        "261108.x",
+        "261115.x"
       ],
       "featured": false,
       "highlights": [
@@ -3453,21 +3454,21 @@
       ],
       "history": [],
       "id": "chat-edge-lane-fix",
-      "publishedAt": "2026-11-13",
+      "publishedAt": "2026-11-17",
       "readme": [
         "客户端聊天连接偶尔会半死，比如 Alt-Tab、打开货舱/机库/牵引货柜、重登或网络抖动。服务器还在给它发消息并一直等确认，等待名额被占满后，聊天、斜杠命令和库存操作会一起卡几分钟。",
         "本模组给每条聊天消息最多等 5 秒，超时就断开卡住的连接，让后面的消息和指令继续。不改变聊天内容、游戏数据、物品和挖矿产出，可随时停用。"
       ],
       "repo": "https://github.com/jealous123456789/evejs-mod-chat-edge-lane-fix",
       "requiresRestart": true,
-      "sha256": "1285d7e722b5df4f81f1d9640a6fcb20941c9f422e26768a424dd241b778cfad",
-      "sizeBytes": 14267,
+      "sha256": "f8e23c8712ef2366e088e86e3ced28ae203811e68fcaeb9f8786c4506f841499",
+      "sizeBytes": 14503,
       "tags": [
         "聊天",
         "修复",
         "服务器"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "jealous123456789/evejs-mod-chat-edge-lane-fix",
       "downloads": 53,
       "cdnHits": 0
@@ -4151,7 +4152,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "tgz32OTKtAv/e1QjVNa3oIPcZt/GiPGKTnMHjezHG7UD5s9SL2dwMQc/fremggzRlcHAd9i3SqJtIoG5tNeWAQ==",
-    "signedAt": "2026-11-17T05:08:13.904Z"
+    "sig": "TyybdU52FIS6P5DAGFtwu+ovAkd0ALqhUiXPO4XsYHoRXAQzNNrhJRvUMd+nVZ949jutA4V+Rj/cemcgrZo/AA==",
+    "signedAt": "2026-11-17T05:17:56.826Z"
   }
 }
