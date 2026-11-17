@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-17T04:12:18.011Z",
+  "publishedAt": "2026-11-17T05:01:32.390Z",
   "mods": [
     {
       "author": {
@@ -239,7 +239,7 @@
       "tags": [],
       "version": "0.18.2",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 789,
+      "downloads": 790,
       "cdnHits": 0
     },
     {
@@ -286,7 +286,7 @@
       ],
       "version": "1.1.8",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1689,
+      "downloads": 1690,
       "cdnHits": 0
     },
     {
@@ -628,7 +628,7 @@
       ],
       "version": "1.3.1",
       "source": "GH301/evejs-mod-evejs-nf-crew",
-      "downloads": 546,
+      "downloads": 547,
       "cdnHits": 0
     },
     {
@@ -1259,7 +1259,7 @@
       ],
       "version": "1.0.10",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 1252,
+      "downloads": 1253,
       "cdnHits": 0
     },
     {
@@ -1352,7 +1352,7 @@
       ],
       "version": "1.3.15",
       "source": "xxxuan42/evejs-mod-evejs-skyhook-reagent-boost",
-      "downloads": 313,
+      "downloads": 315,
       "cdnHits": 0
     },
     {
@@ -1401,7 +1401,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-agent-portraits",
-      "downloads": 126,
+      "downloads": 127,
       "cdnHits": 0
     },
     {
@@ -1509,7 +1509,7 @@
       ],
       "version": "1.2.2",
       "source": "jealous123456789/evejs-mod-mission-content-repair",
-      "downloads": 515,
+      "downloads": 531,
       "cdnHits": 0
     },
     {
@@ -1560,7 +1560,7 @@
       ],
       "version": "1.0.4",
       "source": "starcraft110/evejs-mod-evejs-hyperion-ship",
-      "downloads": 252,
+      "downloads": 253,
       "cdnHits": 0
     },
     {
@@ -1699,7 +1699,7 @@
       ],
       "version": "1.0.3",
       "source": "xxxuan42/evejs-mod-evejs-moonscan-all",
-      "downloads": 124,
+      "downloads": 129,
       "cdnHits": 0
     },
     {
@@ -1844,7 +1844,7 @@
       ],
       "version": "1.0.0",
       "source": "Mimataer/evejs-mod-evejs-da-fei-yu-zhu-quan-bu-shu",
-      "downloads": 29,
+      "downloads": 31,
       "cdnHits": 0
     },
     {
@@ -2097,7 +2097,7 @@
       ],
       "version": "1.1.1",
       "source": "kuroneko-lice/evejs-mod-evejs-shi-chang-jia-ge-xin-xi-tong-bu",
-      "downloads": 188,
+      "downloads": 189,
       "cdnHits": 0
     },
     {
@@ -2199,7 +2199,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-structure-timers",
-      "downloads": 204,
+      "downloads": 205,
       "cdnHits": 0
     },
     {
@@ -2250,7 +2250,7 @@
       ],
       "version": "1.1.1",
       "source": "GH301/evejs-mod-evejs-anomaly-rewards",
-      "downloads": 22,
+      "downloads": 23,
       "cdnHits": 0
     },
     {
@@ -2391,7 +2391,7 @@
       ],
       "version": "1.0.1",
       "source": "jealous123456789/evejs-mod-overview-display-fix",
-      "downloads": 173,
+      "downloads": 182,
       "cdnHits": 0
     },
     {
@@ -2485,7 +2485,7 @@
       ],
       "version": "1.5.31",
       "source": "lxm970112-hub/evejs-mod-evejs-wa-kuang",
-      "downloads": 167,
+      "downloads": 168,
       "cdnHits": 2
     },
     {
@@ -2529,7 +2529,7 @@
       ],
       "version": "1.1.3",
       "source": "xxxuan42/evejs-mod-evejs-auto-mining-compression",
-      "downloads": 241,
+      "downloads": 242,
       "cdnHits": 0
     },
     {
@@ -3063,7 +3063,7 @@
       ],
       "version": "1.0.3",
       "source": "jealous123456789/evejs-mod-better-loot",
-      "downloads": 106,
+      "downloads": 111,
       "cdnHits": 0
     },
     {
@@ -3073,7 +3073,7 @@
         "name": "普罗旺斯煎饼果子"
       },
       "category": "玩法",
-      "changelog": "更新了一次完成当前的可研/工业/反应任务，支持分别完成。注意完成情况在本地聊天反馈。",
+      "changelog": "适配261115.2服务端",
       "conflicts": [],
       "delisted": false,
       "description": "达到对应高级技能 IV 后，用 /isl m、/isl s、/isl r 分别开启制造、科研、反应的 99 条生产线，再输入一次即可关闭；/isl 查看状态，/isl all 三类一起开关，/isl help 查看用法。未开启时保持原版上限，开启状态跨重启保留。",
@@ -3082,11 +3082,12 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/jealous123456789/evejs-mod-industry-job-slots/releases/download/v1.0.1/industry-job-slots-1.0.1.zip"
+          "url": "https://github.com/jealous123456789/evejs-mod-industry-job-slots/releases/download/v1.0.2/industry-job-slots-1.0.2.zip"
         }
       ],
       "evejsVersions": [
-        "261108.x"
+        "261108.x",
+        "261115.x"
       ],
       "featured": false,
       "highlights": [
@@ -3098,7 +3099,7 @@
       ],
       "history": [],
       "id": "industry-job-slots",
-      "publishedAt": "2026-11-13",
+      "publishedAt": "2026-11-17",
       "readme": [
         "制造、科研、反应达到高级批量生产 IV、高级实验室操作 IV、高级批量反应 IV 后，用 `/isl m`、`/isl s`、`/isl r` 分别开启 99 条生产线；未开启时保持原版上限。",
         "`/isl done` 会跳过剩余时间，立即交付当前全部科研、制造、反应任务，正常发放产物、归还蓝图、释放槽位；`/isl done m`、`/isl done s`、`/isl done r` 只完成对应类别。某一条失败不影响其他任务，原因逐条提示；不会补材料或游戏币，交付后不能撤回。",
@@ -3108,8 +3109,8 @@
       ],
       "repo": "https://github.com/jealous123456789/evejs-mod-industry-job-slots",
       "requiresRestart": true,
-      "sha256": "ed4c1f61b540b0ed9fa79069cc2be411ff0d862aa5cef6aba2d6ae33c3dccaa3",
-      "sizeBytes": 30930,
+      "sha256": "0e855a4bac46de1a708ddd6f56ef0188091cafee91d51d6d13cee0e170aa054d",
+      "sizeBytes": 33263,
       "tags": [
         "工业",
         "制造",
@@ -3117,7 +3118,7 @@
         "反应",
         "槽位"
       ],
-      "version": "1.0.1",
+      "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-industry-job-slots",
       "downloads": 56,
       "cdnHits": 0
@@ -3227,7 +3228,7 @@
       ],
       "version": "1.1.5",
       "source": "xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle",
-      "downloads": 94,
+      "downloads": 95,
       "cdnHits": 0
     },
     {
@@ -3274,7 +3275,7 @@
       "tags": [],
       "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 407,
+      "downloads": 408,
       "cdnHits": 0
     },
     {
@@ -3314,7 +3315,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 524,
+      "downloads": 525,
       "cdnHits": 3
     },
     {
@@ -3363,7 +3364,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-belt-respawn-cooldown",
-      "downloads": 85,
+      "downloads": 89,
       "cdnHits": 0
     },
     {
@@ -3468,7 +3469,7 @@
       ],
       "version": "1.0.0",
       "source": "jealous123456789/evejs-mod-chat-edge-lane-fix",
-      "downloads": 52,
+      "downloads": 53,
       "cdnHits": 0
     },
     {
@@ -3577,7 +3578,7 @@
       ],
       "version": "1.0.1",
       "source": "jealous123456789/evejs-mod-autopilot-warp-zero",
-      "downloads": 89,
+      "downloads": 94,
       "cdnHits": 0
     },
     {
@@ -3839,7 +3840,7 @@
       ],
       "version": "1.1.0",
       "source": "lxm970112-hub/evejs-mod-evejs-wormhole-anomaly-repair-261028",
-      "downloads": 26,
+      "downloads": 27,
       "cdnHits": 0
     },
     {
@@ -3888,7 +3889,7 @@
       "tags": [],
       "version": "0.1.6",
       "source": "MateralCMX/evejs-mod-planetary-industry-enhancement",
-      "downloads": 269,
+      "downloads": 270,
       "cdnHits": 0
     },
     {
@@ -4021,7 +4022,7 @@
       ],
       "version": "1.10.3",
       "source": "xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
-      "downloads": 314,
+      "downloads": 315,
       "cdnHits": 0
     },
     {
@@ -4149,7 +4150,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "OG/D7w0+sxjieYd3X2Sn+mc9uI5is8cEfSrcDLjurjrCdH/yj1IhPQdeCQLNFBaleS2V8aTR5SI6EGhYP+dPAg==",
-    "signedAt": "2026-11-17T04:12:18.015Z"
+    "sig": "nAg2ALZEC7mdHJv48YuPuH1u5eG+3v9h5SwPp+/Rc/N6DnT49Kh05q6i+Lrqz24fb8qlfptZw+5XTogvF2TKDQ==",
+    "signedAt": "2026-11-17T05:01:32.395Z"
   }
 }
