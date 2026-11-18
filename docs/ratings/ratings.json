@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1794933896223,
+  "generatedAt": 1795015070092,
   "mods": {
     "bug-fixes": {
       "stars": 1,
@@ -171,17 +171,17 @@
       ]
     },
     "evejs-nf-crew": {
-      "stars": 3,
+      "stars": 4,
       "comments": 0,
       "average": 5,
-      "count": 3,
+      "count": 4,
       "withText": 0,
       "histogram": [
         0,
         0,
         0,
         0,
-        3
+        4
       ]
     },
     "evejs-npc": {
@@ -398,6 +398,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "osuZxBvFlxIrtojL81S+HWswvN6koRt8e/ejjebs5JDM5EtpZejFSrqa7LKi7E2qH3+beJwjSDTM1l+49fApBg=="
+    "sig": "NuygB7Bd/hEU7sLk6e5IIFLXmBMLvU7dreiCLIkNip1neDsasi8pqqTcdZqHZfVJYObcmQbzX+SMpymbuwbyCA=="
   }
 }
