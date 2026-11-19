@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": 1795099904933,
+  "modId": "evejs-da-fei-yu-zhu-quan-bu-shu",
+  "reviews": [
+    {
+      "id": "rv-1795098078027-20708",
+      "keyId": "638aebd7c9ab",
+      "author": "",
+      "corp": "",
+      "country": "CN",
+      "stars": 5,
+      "version": "1.0.0",
+      "date": "2026-11-19",
+      "body": "怎么下主权？",
+      "edited": false
+    },
+    {
+      "id": "rv-1795099904393-10880",
+      "keyId": "83812e9ec162",
+      "author": "",
+      "corp": "",
+      "country": "CN",
+      "stars": 5,
+      "version": "1.0.0",
+      "date": "2026-11-19",
+      "body": "怎么操作啊",
+      "edited": false
+    }
+  ],
+  "stars": {
+    "count": 0,
+    "keys": []
+  },
+  "signature": {
+    "alg": "ed25519",
+    "keyId": "evejs-ratings-2026-10-01",
+    "sig": "H0rDKrf71gkZCe2cVcpsd1WHGyhMO5pJ9bK5x/e+CZgR/mN461uH11RJxzzFd91xDhyokJm6FZ2aLJaRgrisCw=="
+  }
+}

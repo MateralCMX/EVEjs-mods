@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": 1795083699084,
+  "modId": "overview-display-fix",
+  "reviews": [],
+  "stars": {
+    "count": 1,
+    "keys": [
+      "e77b556870b4"
+    ]
+  },
+  "signature": {
+    "alg": "ed25519",
+    "keyId": "evejs-ratings-2026-10-01",
+    "sig": "rUYv4whJ1VcoGoTvTPdtBURd09QM4SZlSakdkG9+lQrS6qrd4J33rM9dbeNGijmoOyAvI0801xBth9VCBPnSBw=="
+  }
+}

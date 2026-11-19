@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795015070092,
+  "generatedAt": 1795099904933,
   "mods": {
     "bug-fixes": {
       "stars": 1,
@@ -114,6 +114,20 @@
         6
       ]
     },
+    "evejs-da-fei-yu-zhu-quan-bu-shu": {
+      "stars": 0,
+      "comments": 2,
+      "average": 0,
+      "count": 0,
+      "withText": 2,
+      "histogram": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
     "evejs-faction-sim": {
       "stars": 5,
       "comments": 5,
@@ -224,6 +238,20 @@
         0,
         0,
         0
+      ]
+    },
+    "evejs-shi-chang-jia-ge-xin-xi-tong-bu": {
+      "stars": 1,
+      "comments": 0,
+      "average": 5,
+      "count": 1,
+      "withText": 0,
+      "histogram": [
+        0,
+        0,
+        0,
+        0,
+        1
       ]
     },
     "evejs-ship-collision-fix": {
@@ -352,6 +380,20 @@
         1
       ]
     },
+    "overview-display-fix": {
+      "stars": 1,
+      "comments": 0,
+      "average": 5,
+      "count": 1,
+      "withText": 0,
+      "histogram": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
     "pi-manager": {
       "stars": 1,
       "comments": 0,
@@ -398,6 +440,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "NuygB7Bd/hEU7sLk6e5IIFLXmBMLvU7dreiCLIkNip1neDsasi8pqqTcdZqHZfVJYObcmQbzX+SMpymbuwbyCA=="
+    "sig": "fv6LfbLMseK7w7GGZx5+2Fpu9LgDvqxyoa3/dJGJGTLeKzzb3QhWlMls/09ydJSZzjS25Td2GE18lwd/VuymAw=="
   }
 }
