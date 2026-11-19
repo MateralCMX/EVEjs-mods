@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": 1795106202362,
+  "modId": "jita-night-market",
+  "reviews": [],
+  "stars": {
+    "count": 1,
+    "keys": [
+      "ec4515b3c26e"
+    ]
+  },
+  "signature": {
+    "alg": "ed25519",
+    "keyId": "evejs-ratings-2026-10-01",
+    "sig": "JpBdC+7eQhz620l61y2nULMPBO85Fpb7LOBC7Yu86373VaC7fgv793XaTRvPtVoSBpswXqHXxVEybiHbDiVUDQ=="
+  }
+}

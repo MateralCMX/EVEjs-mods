@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795099904933,
+  "generatedAt": 1795106202362,
   "mods": {
     "bug-fixes": {
       "stars": 1,
@@ -338,6 +338,20 @@
         1
       ]
     },
+    "jita-night-market": {
+      "stars": 1,
+      "comments": 0,
+      "average": 5,
+      "count": 1,
+      "withText": 0,
+      "histogram": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
     "mission-content-repair": {
       "stars": 0,
       "comments": 1,
@@ -440,6 +454,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "fv6LfbLMseK7w7GGZx5+2Fpu9LgDvqxyoa3/dJGJGTLeKzzb3QhWlMls/09ydJSZzjS25Td2GE18lwd/VuymAw=="
+    "sig": "UrRR1qa8+pF7dSCXhQbebKknkEM+HyYuif64BsPM8b88RctzWzhOOOH87HfqJcUZtcV+SRWMdqAw28cMkcWmCw=="
   }
 }
