@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-20T08:12:52.413Z",
+  "publishedAt": "2026-11-20T09:24:06.283Z",
   "mods": [
     {
       "author": {
@@ -239,7 +239,7 @@
       "tags": [],
       "version": "0.18.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 817,
+      "downloads": 823,
       "cdnHits": 0
     },
     {
@@ -286,7 +286,7 @@
       ],
       "version": "1.1.10",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1845,
+      "downloads": 1848,
       "cdnHits": 0
     },
     {
@@ -348,7 +348,7 @@
       ],
       "version": "1.0.22",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 1523,
+      "downloads": 1528,
       "cdnHits": 3057
     },
     {
@@ -530,7 +530,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 573,
+      "downloads": 574,
       "cdnHits": 0
     },
     {
@@ -702,7 +702,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 2321,
+      "downloads": 2324,
       "cdnHits": 3718
     },
     {
@@ -752,7 +752,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-npc-hull-hp-fix",
-      "downloads": 167,
+      "downloads": 168,
       "cdnHits": 0
     },
     {
@@ -1074,7 +1074,7 @@
       "tags": [],
       "version": "0.1.7",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 350,
+      "downloads": 356,
       "cdnHits": 0
     },
     {
@@ -1211,7 +1211,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "injusticemaster/evejs-mod-world-ark-91900",
-      "downloads": 290,
+      "downloads": 291,
       "cdnHits": 0
     },
     {
@@ -1352,7 +1352,7 @@
       ],
       "version": "1.3.15",
       "source": "xxxuan42/evejs-mod-evejs-skyhook-reagent-boost",
-      "downloads": 384,
+      "downloads": 385,
       "cdnHits": 0
     },
     {
@@ -1509,7 +1509,7 @@
       ],
       "version": "1.2.2",
       "source": "jealous123456789/evejs-mod-mission-content-repair",
-      "downloads": 703,
+      "downloads": 704,
       "cdnHits": 0
     },
     {
@@ -1560,7 +1560,7 @@
       ],
       "version": "1.0.4",
       "source": "starcraft110/evejs-mod-evejs-hyperion-ship",
-      "downloads": 297,
+      "downloads": 298,
       "cdnHits": 0
     },
     {
@@ -1699,7 +1699,7 @@
       ],
       "version": "1.0.3",
       "source": "xxxuan42/evejs-mod-evejs-moonscan-all",
-      "downloads": 184,
+      "downloads": 185,
       "cdnHits": 0
     },
     {
@@ -1747,7 +1747,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-structure-targeting-fix",
-      "downloads": 127,
+      "downloads": 128,
       "cdnHits": 0
     },
     {
@@ -1795,7 +1795,7 @@
       ],
       "version": "0.1.1",
       "source": "billyyyq/evejs-mod-jita-night-market",
-      "downloads": 28,
+      "downloads": 29,
       "cdnHits": 0
     },
     {
@@ -2145,7 +2145,7 @@
       ],
       "version": "1.1.1",
       "source": "kuroneko-lice/evejs-mod-evejs-shi-chang-jia-ge-xin-xi-tong-bu",
-      "downloads": 220,
+      "downloads": 221,
       "cdnHits": 0
     },
     {
@@ -2298,7 +2298,7 @@
       ],
       "version": "1.1.1",
       "source": "GH301/evejs-mod-evejs-anomaly-rewards",
-      "downloads": 82,
+      "downloads": 84,
       "cdnHits": 0
     },
     {
@@ -2347,7 +2347,7 @@
       ],
       "version": "1.0.10",
       "source": "xxxuan42/evejs-mod-evejs-courier-ai",
-      "downloads": 142,
+      "downloads": 143,
       "cdnHits": 0
     },
     {
@@ -2388,7 +2388,7 @@
       "tags": [],
       "version": "0.2.2",
       "source": "xuenaimiao/evejs-mod-evejs-perf-fix",
-      "downloads": 527,
+      "downloads": 528,
       "cdnHits": 2
     },
     {
@@ -2439,7 +2439,7 @@
       ],
       "version": "1.0.1",
       "source": "jealous123456789/evejs-mod-overview-display-fix",
-      "downloads": 335,
+      "downloads": 338,
       "cdnHits": 0
     },
     {
@@ -2958,7 +2958,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-origin-drake-misc",
-      "downloads": 328,
+      "downloads": 329,
       "cdnHits": 0
     },
     {
@@ -3001,7 +3001,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-aegis-anvil",
-      "downloads": 280,
+      "downloads": 281,
       "cdnHits": 0
     },
     {
@@ -3052,7 +3052,7 @@
       ],
       "version": "0.1.2",
       "source": "xuenaimiao/evejs-mod-evejs-sc-quarters",
-      "downloads": 161,
+      "downloads": 162,
       "cdnHits": 0
     },
     {
@@ -3328,7 +3328,7 @@
       "tags": [],
       "version": "0.1.6",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 437,
+      "downloads": 441,
       "cdnHits": 0
     },
     {
@@ -3801,7 +3801,7 @@
       "tags": [],
       "version": "0.1.4",
       "source": "MateralCMX/evejs-mod-ship-operations-assistant",
-      "downloads": 0,
+      "downloads": 4,
       "cdnHits": 0
     },
     {
@@ -4089,7 +4089,7 @@
       ],
       "version": "1.0.0",
       "source": "lxm970112-hub/evejs-mod-evejs-fitting-ship-slots",
-      "downloads": 43,
+      "downloads": 44,
       "cdnHits": 0
     },
     {
@@ -4136,7 +4136,7 @@
       ],
       "version": "1.10.3",
       "source": "xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
-      "downloads": 390,
+      "downloads": 391,
       "cdnHits": 3
     },
     {
@@ -4155,7 +4155,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.0.0/evejs-yuan-zheng-1.0.0.zip"
+          "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.0.1/evejs-yuan-zheng-1.0.1.zip"
         }
       ],
       "evejsVersions": [
@@ -4174,21 +4174,21 @@
       ],
       "history": [],
       "id": "evejs-yuan-zheng",
-      "publishedAt": "2026-11-19",
+      "publishedAt": "2026-11-20",
       "readme": [
         "按 EVE University wiki 的 DED rated complexes 表，把 1/10–8/10、10/10（含无人机）全部站点做成与服务端一致的远征规则。"
       ],
       "repo": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng",
       "requiresRestart": true,
-      "sha256": "c7dbff725da8873adb4502d284b7ac8a834f3d7392cc68a3baf96dc0fca37959",
-      "sizeBytes": 255802,
+      "sha256": "1d9171296eef574d01b05218111dfa6486db8310e7b5afdc72a13d6eeddd2aca",
+      "sizeBytes": 256635,
       "tags": [
         "远征",
         "DED"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "Mimataer/evejs-mod-evejs-yuan-zheng",
-      "downloads": 25,
+      "downloads": 28,
       "cdnHits": 0
     },
     {
@@ -4316,7 +4316,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "f+vtrNHSw/t3ltl7eW0N3oHKBRY1zAWYe48ir68fnumpBcZi3KkNi5caBFIZMjUoTwJlgNPHXvWEy0o6oAOODA==",
-    "signedAt": "2026-11-20T08:12:52.418Z"
+    "sig": "le6jX394Xww0Hv+E1wWBSdAX+oKqkrDdPXh4+KoJqhjLPWK17S7vFyiXUx6y4/VyuQSNyx9gDb/o4C7b+2o2Dg==",
+    "signedAt": "2026-11-20T09:24:06.289Z"
   }
 }
