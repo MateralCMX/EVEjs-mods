@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/MateralCMX/evejs-mod-bug-fixes/releases/download/v0.18.2/bug-fixes-0.18.2.zip"
+      "url": "https://github.com/MateralCMX/evejs-mod-bug-fixes/releases/download/v0.18.5/bug-fixes-0.18.5.zip"
     }
   ],
   "id": "bug-fixes",
-  "publishedAt": "2026-11-03",
+  "publishedAt": "2026-11-20",
   "schemaVersion": 1,
-  "sha256": "01dc546e6c3dd96c587076cb2fb883e98b475411c4d8266af60d9c06dfb7f7c7",
-  "sizeBytes": 945088,
+  "sha256": "395d536d2e80f78c47093e2c1dcdc6292e51ee21750e45da2b6a21508021155e",
+  "sizeBytes": 979228,
   "source": "MateralCMX/evejs-mod-bug-fixes",
-  "submittedAt": "2026-11-03T01:10:27.665Z",
-  "version": "0.18.2"
+  "submittedAt": "2026-11-20T07:53:49.563Z",
+  "version": "0.18.5"
 }
