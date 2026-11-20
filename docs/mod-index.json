@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-20T15:27:34.254Z",
+  "publishedAt": "2026-11-20T15:31:22.064Z",
   "mods": [
     {
       "author": {
@@ -702,7 +702,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 2337,
+      "downloads": 2338,
       "cdnHits": 3718
     },
     {
@@ -4225,7 +4225,7 @@
       ],
       "version": "1.0.4",
       "source": "Mimataer/evejs-mod-evejs-yuan-zheng",
-      "downloads": 111,
+      "downloads": 113,
       "cdnHits": 0
     },
     {
@@ -4353,7 +4353,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "CQRBQJua8XOwG/XJNoE+b97se74lNtBXFSKce7F4EKIRoYWv/F0eCMp4TRUuH5z4hsQdlRBZQ0itJ4Q7N1ZzDg==",
-    "signedAt": "2026-11-20T15:27:34.259Z"
+    "sig": "ZDDvoyUmzrg5ZclwQ3/WqvUhpkicNg2aOE9R+6xWiYFJAIcii3YmPLqx/jO0e3jdKG7/2n/T34NzHgfsyJScCA==",
+    "signedAt": "2026-11-20T15:31:22.068Z"
   }
 }
