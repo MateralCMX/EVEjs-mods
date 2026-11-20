@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-muxt6kcyxsf4",
+    "keyId": "54c1f8afabfe",
+    "name": "Materal"
+  },
+  "displayName": "舰船作业助手",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/MateralCMX/evejs-mod-ship-operations-assistant/releases/download/v0.1.4/ship-operations-assistant-0.1.4.zip"
+    }
+  ],
+  "id": "ship-operations-assistant",
+  "publishedAt": "2026-11-20",
+  "schemaVersion": 1,
+  "sha256": "a40e9c0915c779952574265d418495fdd6439719869cd203ce46902c65347087",
+  "sizeBytes": 1463293,
+  "source": "MateralCMX/evejs-mod-ship-operations-assistant",
+  "submittedAt": "2026-11-20T08:10:40.435Z",
+  "version": "0.1.4"
+}
