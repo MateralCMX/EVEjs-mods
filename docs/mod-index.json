@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-21T08:01:57.595Z",
+  "publishedAt": "2026-11-21T08:04:26.100Z",
   "mods": [
     {
       "author": {
@@ -1995,7 +1995,7 @@
       ],
       "version": "1.4.1",
       "source": "huihuangdi/evejs-mod-evejs-attribute-editor",
-      "downloads": 199,
+      "downloads": 200,
       "cdnHits": 0
     },
     {
@@ -2295,7 +2295,7 @@
       ],
       "version": "1.1.1",
       "source": "huihuangdi/evejs-mod-evejs-ded-ladder",
-      "downloads": 47,
+      "downloads": 48,
       "cdnHits": 0
     },
     {
@@ -3301,7 +3301,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle/releases/download/v1.1.5/evejs-industrial-module-fast-cycle-1.1.5.zip"
+          "url": "https://github.com/xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle/releases/download/v1.2.2/evejs-industrial-module-fast-cycle-1.2.2.zip"
         }
       ],
       "evejsVersions": [
@@ -3313,14 +3313,14 @@
       "highlights": [],
       "history": [],
       "id": "evejs-industrial-module-fast-cycle",
-      "publishedAt": "2026-11-16",
+      "publishedAt": "2026-11-21",
       "readme": [
         "把三类工业模块的循环时间统一改成 **5 秒**，并把消耗按循环比例下调；纯服务端内存补丁，\n不改客户端文件、不改数据库、不改服务端源码，停用模组并重启服务端即恢复原版。"
       ],
       "repo": "https://github.com/xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle",
       "requiresRestart": true,
-      "sha256": "1f745bcc5a144ed07cd941ab2da3cfe7789083d0777e7d63c113dcda37d0c262",
-      "sizeBytes": 20819,
+      "sha256": "ab06572d37e12de4815d41db92bab3280e731b42c0c28695b9a4d21646711a83",
+      "sizeBytes": 25605,
       "tags": [
         "工业",
         "压缩",
@@ -3328,7 +3328,7 @@
         "工业核心",
         "燃料"
       ],
-      "version": "1.1.5",
+      "version": "1.2.2",
       "source": "xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle",
       "downloads": 161,
       "cdnHits": 0
@@ -4359,7 +4359,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "bIsfhK9vAEg9StHMDzz330n2fnEwBTJLyMuRC340yXZH6Wwk7PDfEmQs6HDRJxdi65Sj9dpF98i1EBg1Lmr9Aw==",
-    "signedAt": "2026-11-21T08:01:57.600Z"
+    "sig": "UgMMjJI0I5oTqLWmvCcUeZOFTZlliVwrZO7BILqBWuY2bIw+Fe0RcxH571a4/I1cfjzazzNHSpsgreAK8o1XCA==",
+    "signedAt": "2026-11-21T08:04:26.105Z"
   }
 }
