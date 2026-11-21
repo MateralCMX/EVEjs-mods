@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-21T04:51:57.739Z",
+  "publishedAt": "2026-11-21T04:54:29.555Z",
   "mods": [
     {
       "author": {
@@ -1116,7 +1116,7 @@
       "tags": [],
       "version": "0.6.1",
       "source": "huihuangdi/evejs-mod-npc-loot-rules-261028",
-      "downloads": 209,
+      "downloads": 211,
       "cdnHits": 0
     },
     {
@@ -1795,7 +1795,7 @@
       ],
       "version": "0.1.1",
       "source": "billyyyq/evejs-mod-jita-night-market",
-      "downloads": 55,
+      "downloads": 56,
       "cdnHits": 0
     },
     {
@@ -1892,7 +1892,7 @@
       ],
       "version": "1.0.0",
       "source": "Mimataer/evejs-mod-evejs-da-fei-yu-zhu-quan-bu-shu",
-      "downloads": 94,
+      "downloads": 95,
       "cdnHits": 0
     },
     {
@@ -2148,7 +2148,7 @@
       ],
       "version": "1.1.1",
       "source": "kuroneko-lice/evejs-mod-evejs-shi-chang-jia-ge-xin-xi-tong-bu",
-      "downloads": 238,
+      "downloads": 239,
       "cdnHits": 0
     },
     {
@@ -2295,7 +2295,7 @@
       ],
       "version": "1.1.1",
       "source": "huihuangdi/evejs-mod-evejs-ded-ladder",
-      "downloads": 30,
+      "downloads": 34,
       "cdnHits": 0
     },
     {
@@ -4356,7 +4356,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "Tr4qmTBQHPbWlfNC4UWkNaN30k/ktimJMM8BbB/6wQ+B9+Kl1sghr2/Aq84l3ytwRKbqgcD+bE8+OK3CcW0gDA==",
-    "signedAt": "2026-11-21T04:51:57.745Z"
+    "sig": "MvKqoUMuLz4uAv3dlIE0HUQIWfWQB51LhAt6pOuAM+5Bs/FTfux12RbbJceYdpmedYaYfQjht9QIO2D87wF1AA==",
+    "signedAt": "2026-11-21T04:54:29.560Z"
   }
 }
