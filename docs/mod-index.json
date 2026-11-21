@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-21T19:22:28.563Z",
+  "publishedAt": "2026-11-21T19:55:09.260Z",
   "mods": [
     {
       "author": {
@@ -239,7 +239,7 @@
       "tags": [],
       "version": "0.18.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 936,
+      "downloads": 937,
       "cdnHits": 0
     },
     {
@@ -286,7 +286,7 @@
       ],
       "version": "1.1.10",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1908,
+      "downloads": 1909,
       "cdnHits": 0
     },
     {
@@ -348,7 +348,7 @@
       ],
       "version": "1.0.22",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 1594,
+      "downloads": 1595,
       "cdnHits": 3080
     },
     {
@@ -1063,7 +1063,7 @@
       "tags": [],
       "version": "0.6.1",
       "source": "huihuangdi/evejs-mod-npc-loot-rules-261028",
-      "downloads": 251,
+      "downloads": 252,
       "cdnHits": 0
     },
     {
@@ -1206,7 +1206,7 @@
       ],
       "version": "1.0.10",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 1347,
+      "downloads": 1349,
       "cdnHits": 0
     },
     {
@@ -1457,7 +1457,7 @@
       ],
       "version": "1.2.2",
       "source": "jealous123456789/evejs-mod-mission-content-repair",
-      "downloads": 786,
+      "downloads": 788,
       "cdnHits": 0
     },
     {
@@ -1600,7 +1600,7 @@
       ],
       "version": "0.1.0",
       "source": "xxxuan42/evejs-mod-corp-ai",
-      "downloads": 24,
+      "downloads": 25,
       "cdnHits": 0
     },
     {
@@ -1789,7 +1789,7 @@
       ],
       "version": "0.1.1",
       "source": "billyyyq/evejs-mod-jita-night-market",
-      "downloads": 72,
+      "downloads": 73,
       "cdnHits": 0
     },
     {
@@ -2450,7 +2450,7 @@
       ],
       "version": "1.1.1",
       "source": "GH301/evejs-mod-evejs-anomaly-rewards",
-      "downloads": 124,
+      "downloads": 125,
       "cdnHits": 0
     },
     {
@@ -2591,7 +2591,7 @@
       ],
       "version": "1.0.1",
       "source": "jealous123456789/evejs-mod-overview-display-fix",
-      "downloads": 408,
+      "downloads": 410,
       "cdnHits": 0
     },
     {
@@ -2688,7 +2688,7 @@
       ],
       "version": "1.5.61",
       "source": "lxm970112-hub/evejs-mod-evejs-wa-kuang",
-      "downloads": 286,
+      "downloads": 288,
       "cdnHits": 2
     },
     {
@@ -2735,7 +2735,7 @@
       ],
       "version": "1.2.6",
       "source": "xxxuan42/evejs-mod-evejs-auto-mining-compression",
-      "downloads": 349,
+      "downloads": 351,
       "cdnHits": 0
     },
     {
@@ -3483,7 +3483,7 @@
       "tags": [],
       "version": "0.1.6",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 541,
+      "downloads": 542,
       "cdnHits": 0
     },
     {
@@ -3572,7 +3572,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-belt-respawn-cooldown",
-      "downloads": 188,
+      "downloads": 189,
       "cdnHits": 0
     },
     {
@@ -3957,7 +3957,7 @@
       "tags": [],
       "version": "0.1.4",
       "source": "MateralCMX/evejs-mod-ship-operations-assistant",
-      "downloads": 45,
+      "downloads": 46,
       "cdnHits": 0
     },
     {
@@ -4311,7 +4311,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.1.20/evejs-yuan-zheng-1.1.20.zip"
+          "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.1.21/evejs-yuan-zheng-1.1.21.zip"
         }
       ],
       "evejsVersions": [
@@ -4328,15 +4328,15 @@
       ],
       "repo": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng",
       "requiresRestart": true,
-      "sha256": "ce35ad3825ca9bb0b3eca0cf55635bfe76df8cefc97d2dca47f747255859ce56",
-      "sizeBytes": 96555,
+      "sha256": "fe7e6042c4f776e680bb4aa4302a8e526c5c1816301c9da9151fdadd286c6073",
+      "sizeBytes": 97039,
       "tags": [
         "远征",
         "DED"
       ],
-      "version": "1.1.20",
+      "version": "1.1.21",
       "source": "Mimataer/evejs-mod-evejs-yuan-zheng",
-      "downloads": 254,
+      "downloads": 255,
       "cdnHits": 0
     },
     {
@@ -4431,7 +4431,7 @@
       ],
       "version": "1.0.5",
       "source": "lxm970112-hub/evejs-mod-evejs-tie-qi-hu-hang",
-      "downloads": 177,
+      "downloads": 178,
       "cdnHits": 0
     }
   ],
@@ -4464,7 +4464,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "MVkVohn5EOe/MkYRr/uBDuN5V4M24E/kZL7hcUltlUyhaGV0nJCh90Aba47W44ABxCtOQqmWdPUd2kZqV2hxCg==",
-    "signedAt": "2026-11-21T19:22:28.570Z"
+    "sig": "sv5HEpb5CaNHRTZVPrMBs8N/zrpkRcDjSrXEHUgvNm9/yyvCiE9MOrtAPVRaYO1iEyo3WtxbOfCQ01w34GkBCw==",
+    "signedAt": "2026-11-21T19:55:09.265Z"
   }
 }
