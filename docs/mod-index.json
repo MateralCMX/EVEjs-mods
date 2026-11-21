@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-21T13:08:17.974Z",
+  "publishedAt": "2026-11-21T13:18:33.656Z",
   "mods": [
     {
       "author": {
@@ -485,7 +485,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 317,
+      "downloads": 318,
       "cdnHits": 8
     },
     {
@@ -530,7 +530,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 595,
+      "downloads": 596,
       "cdnHits": 0
     },
     {
@@ -1259,7 +1259,7 @@
       ],
       "version": "1.0.10",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 1338,
+      "downloads": 1339,
       "cdnHits": 0
     },
     {
@@ -1746,7 +1746,7 @@
       ],
       "version": "1.0.4",
       "source": "xxxuan42/evejs-mod-evejs-moonscan-all",
-      "downloads": 220,
+      "downloads": 223,
       "cdnHits": 0
     },
     {
@@ -2241,7 +2241,7 @@
       ],
       "version": "1.1.1",
       "source": "kuroneko-lice/evejs-mod-evejs-shi-chang-jia-ge-xin-xi-tong-bu",
-      "downloads": 241,
+      "downloads": 242,
       "cdnHits": 0
     },
     {
@@ -2488,7 +2488,7 @@
       ],
       "version": "1.2.1",
       "source": "xxxuan42/evejs-mod-evejs-courier-ai",
-      "downloads": 183,
+      "downloads": 184,
       "cdnHits": 0
     },
     {
@@ -2724,7 +2724,7 @@
       ],
       "version": "1.2.6",
       "source": "xxxuan42/evejs-mod-evejs-auto-mining-compression",
-      "downloads": 333,
+      "downloads": 337,
       "cdnHits": 0
     },
     {
@@ -2865,7 +2865,7 @@
       ],
       "version": "1.0.5",
       "source": "xxxuan42/evejs-mod-evejs-stargate-jump-anywhere",
-      "downloads": 94,
+      "downloads": 95,
       "cdnHits": 0
     },
     {
@@ -3375,7 +3375,7 @@
       ],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 519,
+      "downloads": 520,
       "cdnHits": 3
     },
     {
@@ -3423,7 +3423,7 @@
       ],
       "version": "1.2.2",
       "source": "xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle",
-      "downloads": 182,
+      "downloads": 183,
       "cdnHits": 0
     },
     {
@@ -3512,7 +3512,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 567,
+      "downloads": 568,
       "cdnHits": 3
     },
     {
@@ -3890,7 +3890,7 @@
       ],
       "version": "1.2.1",
       "source": "jealous123456789/evejs-mod-pi-manager",
-      "downloads": 208,
+      "downloads": 211,
       "cdnHits": 2
     },
     {
@@ -4281,7 +4281,7 @@
       ],
       "version": "1.18.1",
       "source": "xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
-      "downloads": 435,
+      "downloads": 436,
       "cdnHits": 3
     },
     {
@@ -4291,7 +4291,7 @@
         "name": "Mimataer"
       },
       "category": "玩法",
-      "changelog": "修复了文本异常，新增掉落补丁",
+      "changelog": "新增异常末波指挥官NPC覆盖全部 198 个战斗异常（30%触发）",
       "conflicts": [],
       "delisted": false,
       "description": "按 EVE University wiki 还原全部 DED 远征：异常触发、站点生成、房间刷怪、Boss 掉落与星际代理处显示。本包只含远征内容。",
@@ -4300,7 +4300,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.1.15/evejs-yuan-zheng-1.1.15.zip"
+          "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.1.19/evejs-yuan-zheng-1.1.19.zip"
         }
       ],
       "evejsVersions": [
@@ -4317,15 +4317,15 @@
       ],
       "repo": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng",
       "requiresRestart": true,
-      "sha256": "6242d668265be98fc23fe161ba90ba7e7c95566826f26dd377988644a32d16a2",
-      "sizeBytes": 84067,
+      "sha256": "265fa458ffef845c89f6c10b71447e84cea4f8c58ca767ca8bc924612efcc9c2",
+      "sizeBytes": 88159,
       "tags": [
         "远征",
         "DED"
       ],
-      "version": "1.1.15",
+      "version": "1.1.19",
       "source": "Mimataer/evejs-mod-evejs-yuan-zheng",
-      "downloads": 209,
+      "downloads": 213,
       "cdnHits": 0
     },
     {
@@ -4420,7 +4420,7 @@
       ],
       "version": "1.0.5",
       "source": "lxm970112-hub/evejs-mod-evejs-tie-qi-hu-hang",
-      "downloads": 170,
+      "downloads": 171,
       "cdnHits": 0
     }
   ],
@@ -4453,7 +4453,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "9bj9c8J78bX38Kl8qnHX5EtakDWIaG9TJscY0ygdLXpiMkoRZ5Is71eitcrf44JiKrJe5oAZRBTzekEnFZ4ADg==",
-    "signedAt": "2026-11-21T13:08:17.980Z"
+    "sig": "Jdc3yQFUxV+720xnQstgfiz+kWMhDTjlCh/Lj+sl9NbeTjvrRfnOpOVNgcumK4NctWSuVoND0FYBo+w+w1xzAQ==",
+    "signedAt": "2026-11-21T13:18:33.660Z"
   }
 }
