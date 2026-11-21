@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-21T08:04:26.100Z",
+  "publishedAt": "2026-11-21T08:09:12.753Z",
   "mods": [
     {
       "author": {
@@ -1611,6 +1611,52 @@
     },
     {
       "author": {
+        "id": "au-mvdfee9me05u",
+        "keyId": "0f5102b5a107",
+        "name": "XUAN"
+      },
+      "category": "AI",
+      "changelog": "",
+      "conflicts": [],
+      "delisted": false,
+      "description": "月矿碎裂后自动生成采矿舰队（长须鲸级+霍克级）开采矿石，装满后交付精炼厂并向拥有人开出赠与合同。",
+      "displayName": "军团AI",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/xxxuan42/evejs-mod-corp-ai/releases/download/v0.1.0/corp-ai-0.1.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "261028.1",
+        "261108.1",
+        "261115.2"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "corp-ai",
+      "publishedAt": "2026-11-21",
+      "readme": [
+        "- 五个源码补丁（注入总线 `__evejsMods.register`，MOD_AUTHORING.md 附录 G）：\n  1. `moonMiningSpaceRuntime.js`：包装 `createFieldFromExtraction` 发出碎裂事件；\n  2. `miningNpcOperations.js`：导出内部函数供模组复用；\n  3. `contractRuntimeState.js`：导出 `createContract` 供模组以指定角色签发；\n  4. `charService.js`：导出角色自动创建与按名查找（\"军团AI\"发行人角色，无需玩家建号）；\n  5. `npcData.js`：向 `npcProfiles` / `npcLoadouts` 注入 `corp_ai_rorqual`（长须鲸级 28352）与 `corp_ai_orca`（逆戟鲸级 28606），\n     含开采先锋/工业核心/月矿压缩器装配。\n- 全部参数配置化；停用模组并重启服务端即恢复原版行为。"
+      ],
+      "repo": "https://github.com/xxxuan42/evejs-mod-corp-ai",
+      "requiresRestart": true,
+      "sha256": "11b1bdfb6fb515cdc5e2031f1e2561020bdb2269c6e97d47aa744b69be398efd",
+      "sizeBytes": 77074,
+      "tags": [
+        "采矿",
+        "月矿",
+        "舰队"
+      ],
+      "version": "0.1.0",
+      "source": "xxxuan42/evejs-mod-corp-ai",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
         "id": "au-mueakz9fwyt6",
         "keyId": "bad8165273ee",
         "name": "橘子"
@@ -1699,7 +1745,7 @@
       ],
       "version": "1.0.3",
       "source": "xxxuan42/evejs-mod-evejs-moonscan-all",
-      "downloads": 203,
+      "downloads": 204,
       "cdnHits": 0
     },
     {
@@ -2487,7 +2533,7 @@
       ],
       "version": "1.0.1",
       "source": "jealous123456789/evejs-mod-overview-display-fix",
-      "downloads": 390,
+      "downloads": 391,
       "cdnHits": 0
     },
     {
@@ -2742,7 +2788,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xxxuan42/evejs-mod-evejs-stargate-jump-anywhere/releases/download/v1.0.3/evejs-stargate-jump-anywhere-1.0.3.zip"
+          "url": "https://github.com/xxxuan42/evejs-mod-evejs-stargate-jump-anywhere/releases/download/v1.0.5/evejs-stargate-jump-anywhere-1.0.5.zip"
         }
       ],
       "evejsVersions": [
@@ -2756,21 +2802,21 @@
       "highlights": [],
       "history": [],
       "id": "evejs-stargate-jump-anywhere",
-      "publishedAt": "2026-11-16",
+      "publishedAt": "2026-11-21",
       "readme": [
         "右键星门点「跳跃」直接过门，不再需要先把船贴近到星门 2500m 内。"
       ],
       "repo": "https://github.com/xxxuan42/evejs-mod-evejs-stargate-jump-anywhere",
       "requiresRestart": true,
-      "sha256": "df752458e40e1573c9a8ff5e0eb6094508807201214f920ad5939d3898ae9336",
-      "sizeBytes": 34439,
+      "sha256": "cc9d70764e0ea06ba9376729dbaf27167ae1aa6b35984dd250c46fb1cab829c4",
+      "sizeBytes": 36522,
       "tags": [
         "星门",
         "跳跃",
         "距离",
         "右键菜单"
       ],
-      "version": "1.0.3",
+      "version": "1.0.5",
       "source": "xxxuan42/evejs-mod-evejs-stargate-jump-anywhere",
       "downloads": 82,
       "cdnHits": 0
@@ -4153,13 +4199,13 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "跳跃引擎：一键把飞船跳到当前终点。用法：①在星图/信息面板把目标设为终点（星系、空间站、建筑、星门、天体、小行星带、深空书签、虫洞空间星系均可）；②点击 HUD 右侧的跳跃按钮（悬停可看使用说明）。落点规则：星系终点→恒星表面上方 1000km 随机点；空间站/建筑/星门/天体/小行星带/深空书签→目标表面外 14m 随机点。同星系终点跳跃会先播放 5 秒充能（充能动画/音效 + 落点闪光）再落到终点，不再瞬移。未设终点时完整还原微型跳跃引擎（MJD）：充能 5 秒后跳到正前方 500km；若已锁定目标，或右键对目标选择接近/朝向，且目标表面距离 2–2000km，则落到目标表面外 1km（空间站/建筑/舰船均可）；被跃迁扰频器干扰时无法启动。按钮按下后外围进度环走一圈显示充能/冷却（5 秒），期间点击会提示剩余时间；跳跃成功、充能中、冷却中与失败原因均通过屏幕顶部游戏内提示反馈。跨星系播放约 3–4 秒旗舰跳跃动画。任何飞船可用，不检查跳跃引擎、不消耗燃料、不检查距离。按钮与登录载荷由本模组自带；仅服务端内存补丁，不改客户端文件、数据库与服务端源码。",
+      "description": "跳跃引擎：一键把飞船跳到当前终点。用法：①在星图/信息面板把目标设为终点（星系、空间站、建筑、星门、天体、小行星带、深空书签、虫洞空间星系均可）；②点击 HUD 右侧的跳跃按钮（悬停可看使用说明）。落点规则：星系终点→恒星表面上方 1000km 随机点；空间站/建筑/星门/天体/小行星带/深空书签→目标表面外 14m 随机点。同星系终点跳跃会先播放 5 秒充能（充能动画/音效 + 落点闪光）再落到终点，不再瞬移。未设终点时完整还原微型跳跃引擎（MJD）：充能 5 秒后跳到正前方 500km；若已锁定目标，或右键对目标选择接近/朝向，且目标表面距离 2–2000km，则落到目标表面外 1km（空间站/建筑/舰船均可）；被跃迁扰频器干扰时无法启动。按钮按下后外围进度环走一圈显示充能/冷却（5 秒），点击瞬间即出现，跨星系跳跃不冻结界面；期间点击会提示剩余时间；跳跃成功、充能中、冷却中与失败原因均通过屏幕顶部游戏内提示反馈。跨星系播放约 3–4 秒旗舰跳跃动画。任何飞船可用，不检查跳跃引擎、不消耗燃料、不检查距离。按钮与登录载荷由本模组自带；仅服务端内存补丁，不改客户端文件、数据库与服务端源码。",
       "displayName": "跳跃引擎",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star/releases/download/v1.10.3/evejs-jumpdrive-to-star-1.10.3.zip"
+          "url": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star/releases/download/v1.18.1/evejs-jumpdrive-to-star-1.18.1.zip"
         }
       ],
       "evejsVersions": [
@@ -4171,21 +4217,21 @@
       "highlights": [],
       "history": [],
       "id": "evejs-jumpdrive-to-star",
-      "publishedAt": "2026-11-16",
+      "publishedAt": "2026-11-21",
       "readme": [
-        "跳跃引擎：一键把飞船跳到当前终点。用法：①在星图/信息面板把目标设为终点（星系、空间站、建筑、星门、天体、小行星带、深空书签、虫洞空间星系均可）；②点击 HUD 右侧的跳跃按钮（悬停可看使用说明）。落点规则：星系终点→恒星表面上方 1000km 随机点；空间站/建筑/星门/天体/小行星带/深空书签→目标表面外 14m 随机点。跨星系播放约 3–4 秒旗舰跳跃动画，同星系内为瞬时位移。任何飞船可用，不检查跳跃引擎、不消耗燃料、不检查距离。按钮与登录载荷由本模组自带；仅服务端内存补丁，不改客户端文件、数据库与服务端源码。"
+        "跳跃引擎：一键把飞船跳到当前终点。用法：①在星图/信息面板把目标设为终点（星系、空间站、建筑、星门、天体、小行星带、深空书签、虫洞空间星系均可）；②点击 HUD 右侧的跳跃按钮（悬停可看使用说明）。落点规则：星系终点→恒星表面上方 1000km 随机点；空间站/建筑/星门/天体/小行星带/深空书签→目标表面外 14m 随机点。跨星系播放约 3–4 秒旗舰跳跃动画，同星系为 5 秒充能后落到精确终点。任何飞船可用，不检查跳跃引擎、不消耗燃料、不检查距离。按钮与登录载荷由本模组自带；仅服务端内存补丁，不改客户端文件、数据库与服务端源码。"
       ],
       "repo": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
       "requiresRestart": true,
-      "sha256": "a579b6367983773e635c770a9c9ef229be1d9d5f2e34865d1cd6aaa0546bea04",
-      "sizeBytes": 57082,
+      "sha256": "34a7d0e45fb163fcbe1cbc3f7953abea3aa15e0e4edbc750eb13dcbf35cd058f",
+      "sizeBytes": 67184,
       "tags": [
         "跳跃引擎",
         "跳跃",
         "HUD",
         "落点"
       ],
-      "version": "1.10.3",
+      "version": "1.18.1",
       "source": "xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
       "downloads": 408,
       "cdnHits": 3
@@ -4359,7 +4405,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "UgMMjJI0I5oTqLWmvCcUeZOFTZlliVwrZO7BILqBWuY2bIw+Fe0RcxH571a4/I1cfjzazzNHSpsgreAK8o1XCA==",
-    "signedAt": "2026-11-21T08:04:26.105Z"
+    "sig": "P4BMDwFT4wGG/n/k1g6qCWNgIUkL6YNwt5HxWGSH7AY0mBnyH2HXWE+WgqKrE8kkoOkYc1YyjMxacWLvIhYxAw==",
+    "signedAt": "2026-11-21T08:09:12.757Z"
   }
 }
