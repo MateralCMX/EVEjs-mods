@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1792819752337,
+  "generatedAt": 1795268672988,
   "modId": "world-ark-91900",
   "reviews": [],
   "stars": {
-    "count": 1,
+    "count": 2,
     "keys": [
-      "10ed784c6342"
+      "10ed784c6342",
+      "fd8c30ace751"
     ]
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "WxJ4lodfs0e1B4lmYfKvs4pEbVFGNJ5xeukNhiuHvRdJg+GMKRNIyQZGpVZzLTJKFSikFhxqYnkl3/aHaif0Dg=="
+    "sig": "oVvK1JDPEIrdLNpp1G8wkbhRaq5QXMWl0/tV7qUFAXVrdE5+r4NB7WIbzVYV+uanEJXFeqMrLakgmJ5rSBHJAA=="
   }
 }
