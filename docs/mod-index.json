@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-21T15:49:36.980Z",
+  "publishedAt": "2026-11-21T16:03:35.642Z",
   "mods": [
     {
       "author": {
@@ -1510,7 +1510,7 @@
       ],
       "version": "1.2.2",
       "source": "jealous123456789/evejs-mod-mission-content-repair",
-      "downloads": 778,
+      "downloads": 779,
       "cdnHits": 0
     },
     {
@@ -1746,7 +1746,7 @@
       ],
       "version": "1.0.4",
       "source": "xxxuan42/evejs-mod-evejs-moonscan-all",
-      "downloads": 233,
+      "downloads": 236,
       "cdnHits": 0
     },
     {
@@ -2003,7 +2003,7 @@
       ],
       "version": "1.2.0",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-dafeiyu-armory",
-      "downloads": 0,
+      "downloads": 1,
       "cdnHits": 0
     },
     {
@@ -2098,7 +2098,7 @@
       ],
       "version": "1.6.2",
       "source": "xxxuan42/evejs-mod-evejs-missile-retarget",
-      "downloads": 30,
+      "downloads": 31,
       "cdnHits": 0
     },
     {
@@ -2552,7 +2552,7 @@
       ],
       "version": "1.2.1",
       "source": "xxxuan42/evejs-mod-evejs-courier-ai",
-      "downloads": 191,
+      "downloads": 192,
       "cdnHits": 0
     },
     {
@@ -2644,7 +2644,7 @@
       ],
       "version": "1.0.1",
       "source": "jealous123456789/evejs-mod-overview-display-fix",
-      "downloads": 402,
+      "downloads": 403,
       "cdnHits": 0
     },
     {
@@ -2700,7 +2700,7 @@
         "name": "雪风"
       },
       "category": "玩法",
-      "changelog": "",
+      "changelog": "修改了常规模式的逻辑\n添加了/wakuang jiancha X（作用是矿船检查范围矿石的时间周期）",
       "conflicts": [],
       "delisted": false,
       "description": "自动创建霍克矿队：读取保存的「挖矿」「挖冰」配装；挖矿用 T2 晶体并自动补货；矿船环绕指挥 500m、每 5-10 分钟查仓交付；压缩模块每圈自动压缩范围内矿船。",
@@ -2709,7 +2709,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang/releases/download/v1.5.58/evejs-wa-kuang-1.5.58.zip"
+          "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang/releases/download/v1.5.61/evejs-wa-kuang-1.5.61.zip"
         }
       ],
       "evejsVersions": [
@@ -2724,14 +2724,14 @@
       "highlights": [],
       "history": [],
       "id": "evejs-wa-kuang",
-      "publishedAt": "2026-11-19",
+      "publishedAt": "2026-11-21",
       "readme": [
-        "首先你自己在太空中创建一只舰队，然后根据你要挖的什么矿使用下面代码召唤挖矿NPC\n/wakuang 50       挖矿 50 人\n/wabing 50        挖冰 50 人\n/kuangdui 50      矿队 50 人（等于挖矿）\n/wakuang          随机 30-100 人\n/wakuang ore 50       挖矿\n/wakuang ice 50       挖冰\n/wakuang paokuang 50  抛矿回收\n/wakuang changgui 50  常规交付\n/wakuang shijian 修改压缩矿扫描时间\n常规交付：矿船自己飞回大鲸鱼，卸进舰队机库，不需要 MTU。\n抛矿回收：矿船原地抛压缩矿，需要先部署自动牵引货柜（MTU），再由模组把货柜里的压缩矿转进大鲸鱼机库。\n找大肥鱼许愿的，有什么BUG要你们自己修了，可能我这里不触发，你那里触发了"
+        "首先你自己在太空中创建一只舰队，然后根据你要挖的什么矿使用下面代码召唤挖矿NPC\n/wakuang 50       挖矿 50 人\n/wabing 50        挖冰 50 人\n/kuangdui 50      矿队 50 人（等于挖矿）\n/wakuang          随机 30-100 人\n/wakuang ore 50       挖矿\n/wakuang ice 50       挖冰\n/wakuang paokuang 50  抛矿回收\n/wakuang changgui 50  常规交付\n/wakuang shijian 修改压缩矿扫描时间\n/wakuang jiancha 修改常规模式的矿石检查间隔（如 `/wakuang jiancha 30s`、`/wakuang jiancha 2`）\n常规交付：矿船自己飞回大鲸鱼，卸进舰队机库，不需要 MTU。\n抛矿回收：矿船原地抛压缩矿，需要先部署自动牵引货柜（MTU），再由模组把货柜里的压缩矿转进大鲸鱼机库。\n抛矿前会确认**玩家自己的自动牵引货柜在 125km 牵引射程内**（`config.mining.jetMtuRangeMeters`），\n不在就先不抛、继续采矿，等货柜部署好（或回到射程内）再抛——过门后也一样，避免把矿抛在没人收的星系。\n`/wakuang jiaofu` 是强制交付：常规模式下会先压缩，再看压缩矿能不能**直接**放进舰队机库——\n机库船就在卸货距离内且装得下就当场放入；放不进（没机库/满了/不在旁边）就按抛矿模式抛出\n（同样要求附近有自己的牵引货柜），两样都不行才走普通交付流程飞过去。\n找大肥鱼许愿的，有什么BUG要你们自己修了，可能我这里不触发，你那里触发了"
       ],
       "repo": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang",
       "requiresRestart": true,
-      "sha256": "d6170f23ed93f3a791671d22b41b4d46b2b19ef3c3857664a331090ccdebf027",
-      "sizeBytes": 98503,
+      "sha256": "2a5455ede5c98b3c52cd316496f228a15dae9789448e9cfb12547a054dfe530c",
+      "sizeBytes": 153897,
       "tags": [
         "采矿",
         "矿队",
@@ -2739,7 +2739,7 @@
         "NPC",
         "自动"
       ],
-      "version": "1.5.58",
+      "version": "1.5.61",
       "source": "lxm970112-hub/evejs-mod-evejs-wa-kuang",
       "downloads": 277,
       "cdnHits": 2
@@ -3954,7 +3954,7 @@
       ],
       "version": "1.2.1",
       "source": "jealous123456789/evejs-mod-pi-manager",
-      "downloads": 224,
+      "downloads": 225,
       "cdnHits": 2
     },
     {
@@ -4163,7 +4163,7 @@
       ],
       "version": "1.1.0",
       "source": "lxm970112-hub/evejs-mod-evejs-wormhole-anomaly-repair-261028",
-      "downloads": 109,
+      "downloads": 110,
       "cdnHits": 0
     },
     {
@@ -4389,7 +4389,7 @@
       ],
       "version": "1.1.19",
       "source": "Mimataer/evejs-mod-evejs-yuan-zheng",
-      "downloads": 242,
+      "downloads": 245,
       "cdnHits": 0
     },
     {
@@ -4517,7 +4517,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "pqR88gp7Cbmsf1USB+66eaydrW89hkbsGWEgP/CAAZdInNzd3PVPRJfpmSNPvkPN1yVJCCAZdTWt+yjbTOLmAQ==",
-    "signedAt": "2026-11-21T15:49:36.986Z"
+    "sig": "cgs/U8XkU+DeeyIm0RmOFa69RSuvm0yPx1G4qdrlX6ej0qoY4Z9VNLX1604e7WTGMPpISpmVrU7wn2EGpxG1Bg==",
+    "signedAt": "2026-11-21T16:03:35.646Z"
   }
 }
