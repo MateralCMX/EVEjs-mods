@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1794466420499,
+  "generatedAt": 1795346070074,
   "sponsors": [
     {
       "id": "sponsor-01",
       "name": "TheIcePower",
-      "amount": 150,
+      "amount": 162,
       "currency": "CNY"
     },
     {
@@ -125,7 +125,7 @@
     {
       "id": "sponsor-21",
       "name": "已逝者的摇篮曲",
-      "amount": 50,
+      "amount": 100,
       "currency": "CNY"
     },
     {
@@ -251,7 +251,7 @@
     {
       "id": "sponsor-42",
       "name": "下北沢野兽",
-      "amount": 150,
+      "amount": 200,
       "currency": "CNY"
     },
     {
@@ -289,11 +289,17 @@
       "name": "愿为",
       "amount": 50,
       "currency": "CNY"
+    },
+    {
+      "id": "sponsor-49",
+      "name": "*零",
+      "amount": 200,
+      "currency": "CNY"
     }
   ],
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "h+Xx+Tjf6t4MeJnD5bIiooDk6XSutTsqw0ctEb3/kMCjbKMFfBvdN1agcoFIo5jIFUxDmnYpyWMk+y78eavJDA=="
+    "sig": "K9lUlxh+CFEPUqCjrSxhfLQh31lgNPz9IR5/Ha/YAF9k95LeIbhJfKHsV55OsoaNLd5AgvODuty+b6um/H87Ag=="
   }
 }
