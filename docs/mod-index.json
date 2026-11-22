@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-22T02:22:07.691Z",
+  "publishedAt": "2026-11-22T02:26:10.513Z",
   "mods": [
     {
       "author": {
@@ -1158,7 +1158,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "injusticemaster/evejs-mod-world-ark-91900",
-      "downloads": 331,
+      "downloads": 333,
       "cdnHits": 0
     },
     {
@@ -3409,7 +3409,7 @@
       ],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 523,
+      "downloads": 524,
       "cdnHits": 3
     },
     {
@@ -3546,7 +3546,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 574,
+      "downloads": 575,
       "cdnHits": 3
     },
     {
@@ -4537,7 +4537,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "iJHK80/dBGE3q5jQE7BbftUzGBzSOrqaGkJqhvXpZypJqEl+CpyMK7iDEYM939ozUPrkAEyiJVusfqK4QUoYAw==",
-    "signedAt": "2026-11-22T02:22:07.696Z"
+    "sig": "VOvFFImVRPn/IuJFVPZkv5CuyU8aLo9GXaBROgdsF6UkdLedziLtcBp27gNmRYwrm9cxM3KRcIGxe9oe4dkiCQ==",
+    "signedAt": "2026-11-22T02:26:10.519Z"
   }
 }
