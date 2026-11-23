@@ -5,19 +5,20 @@
     "name": "Materal"
   },
   "displayName": "GM菜单汉化",
+  "downloadParts": null,
   "downloadUrls": [
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization/releases/download/v0.1.2/gm-menu-localization-0.1.2.zip"
+      "url": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization/releases/download/v0.1.6/gm-menu-localization-0.1.6.zip"
     }
   ],
   "id": "gm-menu-localization",
-  "publishedAt": "2026-10-21",
+  "publishedAt": "2026-11-23",
   "schemaVersion": 1,
-  "sha256": "74410c4a8541880fff54a53f2505968b4643db727a34b0c4d6937948e40262c8",
-  "sizeBytes": 21577,
+  "sha256": "9165e24e398784ce953508cbaa2ad7e519bb8ae4e79d34e81c93a832c0effcdb",
+  "sizeBytes": 51793,
   "source": "MateralCMX/evejs-mod-gm-menu-localization",
-  "submittedAt": "2026-10-21T04:32:07.546Z",
-  "version": "0.1.2"
+  "submittedAt": "2026-11-23T10:23:26.171Z",
+  "version": "0.1.6"
 }
